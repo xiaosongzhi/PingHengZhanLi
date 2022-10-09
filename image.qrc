@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>DependFile/Source/LeftNav/evaluateChecked.png</file>
+        <file>DependFile/Source/LeftNav/evaluateNormal.png</file>
+        <file>DependFile/Source/LeftNav/logo.png</file>
+        <file>DependFile/Source/LeftNav/normalChecked.png</file>
+        <file>DependFile/Source/LeftNav/quit.png</file>
+        <file>DependFile/Source/LeftNav/recordChecked.png</file>
+        <file>DependFile/Source/LeftNav/recordNormal.png</file>
+        <file>DependFile/Source/LeftNav/settingChecked.png</file>
+        <file>DependFile/Source/LeftNav/settingNormal.png</file>
+        <file>DependFile/Source/LeftNav/signal.png</file>
+        <file>DependFile/Source/LeftNav/trainChecked.png</file>
+        <file>DependFile/Source/LeftNav/trainNormal.png</file>
+        <file>DependFile/Source/LeftNav/user.png</file>
+        <file>DependFile/Source/LeftNav/userNoraml.png</file>
+    </qresource>
+</RCC>
