@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QGroupBox" name="nav_GroupBox">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>2</y>
+     <width>140</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#nav_GroupBox{background: #FFFFFF;border:none;}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>29</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/DependFile/Source/LeftNav/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="userManager_Btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>262</y>
+      <width>140</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#userManager_Btn{border-image: url(:/DependFile/Source/LeftNav/userNoraml.png);}
+#userManager_Btn:checked{border-image: url(:/DependFile/Source/LeftNav/normalChecked.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="evaluate_Btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>377</y>
+      <width>140</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#evaluate_Btn{border-image: url(:/DependFile/Source/LeftNav/evaluateNormal.png);}
+#evaluate_Btn:checked{border-image: url(:/DependFile/Source/LeftNav/evaluateChecked.png);}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="training_Btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>492</y>
+      <width>140</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#training_Btn{border-image: url(:/DependFile/Source/LeftNav/trainNormal.png);}
+#training_Btn:checked{border-image: url(:/DependFile/Source/LeftNav/trainChecked.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="record_Btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>607</y>
+      <width>140</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#record_Btn{border-image: url(:/DependFile/Source/LeftNav/recordNormal.png);}
+#record_Btn:checked{border-image: url(:/DependFile/Source/LeftNav/recordChecked.png);}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setting_Btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>722</y>
+      <width>140</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#setting_Btn{border-image: url(:/DependFile/Source/LeftNav/settingNormal.png);}
+#setting_Btn:checked{border-image: url(:/DependFile/Source/LeftNav/settingChecked.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quit_Btn">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>978</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/DependFile/Source/LeftNav/quit.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>1780</width>
+     <height>988</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 255, 127);</string>
+   </property>
+   <property name="currentIndex">
+    <number>4</number>
+   </property>
+   <widget class="QWidget" name="user_Page"/>
+   <widget class="QWidget" name="evaluate_Page"/>
+   <widget class="QWidget" name="train_Page"/>
+   <widget class="QWidget" name="record_Page"/>
+   <widget class="QWidget" name="setting_Page"/>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>1781</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
