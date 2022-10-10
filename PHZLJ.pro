@@ -19,7 +19,8 @@ RCC_DIR = tmp/rcc
 
 INCLUDEPATH += $$PWD/Src/MainWindow \
                $$PWD/Src/Communication \
-               $$PWD/Src/DataFormate
+               $$PWD/Src/DataFormate \
+               $$PWD/Src/LogIn
 
 SOURCES += \
     Src/Communication/ccommunicateapi.cpp \
@@ -29,10 +30,14 @@ SOURCES += \
     Src/Communication/cudpinterface.cpp \
     Src/Communication/globalqueue.cpp \
     Src/Communication/readconfig.cpp \
+    Src/DataBaseControl/cdatabaseinterface.cpp \
+    Src/DataBaseControl/mysqldatabase.cpp \
     Src/DataFormate/dataformate.cpp \
     Src/DataFormate/dbforrmate.cpp \
+    Src/LogIn/logindialog.cpp \
     Src/MainWindow/main.cpp \
-    Src/MainWindow/mainwindow.cpp
+    Src/MainWindow/mainwindow.cpp \
+    Src/Setting/settingpage.cpp
 
 HEADERS += \
     Src/Communication/ccommunicateapi.h \
@@ -42,12 +47,18 @@ HEADERS += \
     Src/Communication/cudpinterface.h \
     Src/Communication/globalqueue.h \
     Src/Communication/readconfig.h \
+    Src/DataBaseControl/cdatabaseinterface.h \
+    Src/DataBaseControl/mysqldatabase.h \
     Src/DataFormate/dataformate.h \
     Src/DataFormate/dbforrmate.h \
-    Src/MainWindow/mainwindow.h
+    Src/LogIn/logindialog.h \
+    Src/MainWindow/mainwindow.h \
+    Src/Setting/settingpage.h
 
 FORMS += \
-    Src/MainWindow/mainwindow.ui
+    Src/LogIn/logindialog.ui \
+    Src/MainWindow/mainwindow.ui \
+    Src/Setting/settingpage.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -14,5 +14,6 @@
         <file>DependFile/Source/LeftNav/trainNormal.png</file>
         <file>DependFile/Source/LeftNav/user.png</file>
         <file>DependFile/Source/LeftNav/userNoraml.png</file>
+        <file>DependFile/Source/login/background.png</file>
     </qresource>
 </RCC>
