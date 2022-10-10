@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingPage</class>
+ <widget class="QWidget" name="SettingPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1780</width>
+    <height>988</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1780</width>
+     <height>988</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{ background:#FAFAFA;}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>95</y>
+      <width>1700</width>
+      <height>843</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #F1F9FD;</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="system_Page"/>
+    <widget class="QWidget" name="password_Page"/>
+    <widget class="QWidget" name="product_Page">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>535</x>
+        <y>175</y>
+        <width>600</width>
+        <height>115</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 4px;
+border: 1px solid #979797;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>535</x>
+        <y>323</y>
+        <width>600</width>
+        <height>115</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 4px;
+border: 1px solid #979797;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>535</x>
+        <y>470</y>
+        <width>600</width>
+        <height>115</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 4px;
+border: 1px solid #979797;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>150</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:checked{background: #0D9DDB;
+border-radius: 4px;color:white;}
+QPushButton{background: #EFEFEF;
+border-radius: 4px;color:black;}</string>
+    </property>
+    <property name="text">
+     <string>系统设置</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>150</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:checked{background: #0D9DDB;
+border-radius: 4px;color:white;}
+QPushButton{background: #EFEFEF;
+border-radius: 4px;color:black;}</string>
+    </property>
+    <property name="text">
+     <string>密码管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>150</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:checked{background: #0D9DDB;
+border-radius: 4px;color:white;}
+QPushButton{background: #EFEFEF;
+border-radius: 4px;color:black;}</string>
+    </property>
+    <property name="text">
+     <string>产品介绍</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
