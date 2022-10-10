@@ -186,8 +186,8 @@
   <widget class="QStackedWidget" name="stackedWidget">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>90</y>
+     <x>150</x>
+     <y>100</y>
      <width>1780</width>
      <height>988</height>
     </rect>
@@ -204,14 +204,17 @@
    <widget class="QWidget" name="record_Page"/>
    <widget class="QWidget" name="setting_Page"/>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="title_groupBox">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>0</y>
+     <x>147</x>
+     <y>2</y>
      <width>1781</width>
      <height>91</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#title_groupBox{background: #FFFFFF;border:none;}</string>
    </property>
    <property name="title">
     <string/>

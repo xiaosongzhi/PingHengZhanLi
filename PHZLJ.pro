@@ -1,4 +1,4 @@
-QT       += core gui network xml sql printsupport
+QT       += core gui network xml sql printsupport serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -17,13 +17,33 @@ RCC_DIR = tmp/rcc
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-INCLUDEPATH += $$PWD/Src/MainWindow
+INCLUDEPATH += $$PWD/Src/MainWindow \
+               $$PWD/Src/Communication \
+               $$PWD/Src/DataFormate
 
 SOURCES += \
+    Src/Communication/ccommunicateapi.cpp \
+    Src/Communication/ccommunicationinterface.cpp \
+    Src/Communication/cserialportinterface.cpp \
+    Src/Communication/ctcpsocketinterface.cpp \
+    Src/Communication/cudpinterface.cpp \
+    Src/Communication/globalqueue.cpp \
+    Src/Communication/readconfig.cpp \
+    Src/DataFormate/dataformate.cpp \
+    Src/DataFormate/dbforrmate.cpp \
     Src/MainWindow/main.cpp \
     Src/MainWindow/mainwindow.cpp
 
 HEADERS += \
+    Src/Communication/ccommunicateapi.h \
+    Src/Communication/ccommunicationinterface.h \
+    Src/Communication/cserialportinterface.h \
+    Src/Communication/ctcpsocketinterface.h \
+    Src/Communication/cudpinterface.h \
+    Src/Communication/globalqueue.h \
+    Src/Communication/readconfig.h \
+    Src/DataFormate/dataformate.h \
+    Src/DataFormate/dbforrmate.h \
     Src/MainWindow/mainwindow.h
 
 FORMS += \
